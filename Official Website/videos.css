@@ -1,0 +1,85 @@
+body{
+    background-color: #726953;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.main{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main ul{
+    margin: auto;
+    padding: 20px 0 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main ul li{
+    float: none;
+    display: inline-block;
+}
+
+.main ul li:nth-child(1){float: left;}
+.main ul li:nth-child(2){float: left;}
+.main ul li a{
+    font-size: 20px;
+    font-weight: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-family: "Super Retro M54";
+    padding: 5px 20px;
+    color: white;
+}
+
+.main ul li a:hover{transition: 1s;
+    background-color: white;
+    border-radius: 5px;
+    color: #726953;
+}
+
+#navbar{
+    position: relative;
+    background-color: #726953;
+    padding: 20px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin-left: -50px;
+    top: 5px;
+}
+
+.container{
+    padding: 2rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1300px;
+    flex-direction: row;
+}
+
+.video-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-video{
+    padding: 0 10px 10px;
+    top: 20px;   
+}
+
+iframe{
+    border-radius: 10px;
+}
